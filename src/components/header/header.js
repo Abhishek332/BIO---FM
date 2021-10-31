@@ -29,7 +29,7 @@ const Header = () => {
             <EditIcon className="edit" />
           </div>
         </div>
-        <button>Edit Blocks</button>
+        <button className="editButton">Edit Blocks</button>
       </div>
     </div>
   );

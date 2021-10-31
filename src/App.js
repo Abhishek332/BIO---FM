@@ -3,7 +3,6 @@ import Header from "./components/header/header";
 import Content from "./components/content/content";
 import Footer from "./components/footer/footer";
 import Main from "./components/Main/Main";
-// import Joyride from "react-joyride";
 import { useState, createContext } from "react";
 
 export const APIContext = createContext();
