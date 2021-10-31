@@ -1,0 +1,31 @@
+.row{
+    padding: 15px 0 25px;
+    color : #2C384F;
+}
+
+.row .title{
+    display:inline-flex;
+    align-items: center;
+    margin-bottom : 15px;
+}
+
+.row .title h3{
+    margin-left : 3px;
+    font-family : "Sofia-SemiBold";
+}
+
+.row p{
+    font-size : 16px;
+    font-family : "Sofia-SemiBold";
+}
+
+.row .icon-wrapper{
+    padding : 0 40px;
+    display : flex;
+    justify-content: space-between;
+}
+
+.row .icon-wrapper>.active,
+.row .icon-wrapper>:hover{
+    color : #355EFF;
+}

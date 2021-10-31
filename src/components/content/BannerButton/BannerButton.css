@@ -1,0 +1,44 @@
+.BannerButton{
+    width : 100%;
+    padding : 5px;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    margin : 0px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 3px rgb(49 49 53 / 10%);
+    margin-top : 20px;
+    cursor: pointer;
+}
+
+.BannerButton > div{
+    margin : 8px;
+}
+
+.BannerButton .circle{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #EBEFFF;
+    color : #355EFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BannerButton .circle > *{
+    font-size: 20px;
+}  
+
+.BannerButton span{
+    font-size: 16px;
+    font-family: "Sofia-SemiBold";
+}
+
+.BannerButton p{
+    line-height: 20px;
+    margin-top : 5px;
+    font-size: 15px;
+}

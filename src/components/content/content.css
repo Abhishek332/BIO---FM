@@ -1,0 +1,19 @@
+.content{
+    width : 425px;
+    margin : auto;
+    margin-top : 160px;
+    margin-bottom : 100px;
+    padding : 0 15px;
+}
+
+hr{
+    background-color: rgb(230, 230, 230);
+    height : 1px;
+    border: none;
+}
+
+@media(max-width : 425px){
+    .content{
+        width : 100%;
+    }
+}
